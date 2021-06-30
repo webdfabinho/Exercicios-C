@@ -1,0 +1,27 @@
+// AULA DE ALGORITIMO E LOGICA DE PROGRAMAÇÃO
+// AUTOR FABIO NERI
+int main()
+{
+float VT, VF, valorParcela3x;
+int FP;
+printf("Informe o valor total da compra: ");
+scanf("%f", &VT);
+printf("Informe a forma de pagamento: ");
+printf("1 - Á Vista / 2 - Em 3x / 3 - Em 12x): \n");
+scanf("%d", &FP);
+    if(FP == 1){
+        VF = VT * 0.90;
+        printf("Como o pagamento foi Á Vista o seu desconto será de 10 porcento é: R$ %.2f \n", VF);
+    } 
+        else if (FP == 2) {
+            printf("Como o pagamento foi em 3 X Não terá desconto: R$ %.2f \n", VT);
+            VF = VT / 3;
+            printf("3 parcelas de: R$ %.2f \n", VF);
+        } 
+            else {
+                VF = VT * 1.12;
+                printf("Como será em 12X houve um acrescimo de 10 porcento no valor total.\n Total da compra: R$ %.2f \n", VF);
+                VF = VF / 12;
+                printf("Dividido em 12 parcelas de: R$ %.2f \n", VF);
+            }
+}

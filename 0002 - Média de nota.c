@@ -1,3 +1,5 @@
+// AULA DE ALGORITIMO E LOGICA DE PROGRAMAÇÃO
+// AUTOR FABIO NERI
 #include <stdio.h>
 
 int main()

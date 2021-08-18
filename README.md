@@ -1,2 +1,2 @@
-# Exercicios Lógica de Prgramação C
+# Exercicios Lógica de Programação C
 RESOÇUÇÃO DE EXERCICIOS DE ALGORITIMOS E LOGICA DE PROGRAMAÇÃO EM C
